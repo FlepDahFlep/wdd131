@@ -3,10 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 131</title>
+
+    <meta name="description" content="WDD 131 – Dynamic Web Fundamentals | Jan Fernandez | HTML, CSS, JavaScript">
+    <meta name="author" content="Jan Fernandez">
+    <title>WDD 131 – Dynamic Web Fundamentals – Jan Fernandez</title>
+    <link rel="stylesheet" href="styles/base.css">
 </head>
+
 <body>
-    <h1>WDD 131 - Fernandez</h1>
-    <h2>waaaaaaa</h2>
+    <header>
+        <span id="course-title">WDD 131 - Dynamic Web Fundamentals</span>
+        <nav>
+            <a href="https://www.linkedin.com/in/jan-lander-fernandez-9bb09532b/" target="blank">LinkedIn</a>
+            <a href="https://byupw.instructure.com/" target="blank">Canvas</a>
+            <a href="https://www.churchofjesuschrist.org/study/scriptures/nt/1-cor/12?lang=eng&id=p3#p3" target="blank"> Favorite Scripture Verse</a>
+            <a href="#">Final Project</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Jan Lander Fernandez</h1>
+        <section class="card">
+            <h2>About Me</h2>
+            <img class="profile-img" src="images/Jan_Fernandez.jpg" alt="Jan Lander Fernandez" width="200"> 
+            <p>Hey! My name is Jan Lander Fernandez, I live in Philippines and I enjoy learning more about Web Development and Programming. I'm currently studying WDD 131 to further enhance my skills.</p>
+
+            <h3>My Country</h3>
+            <div class="country">
+             <img src="images/Cebu_city_skyline_2025.jpg" alt="Country Image" width="250">
+             <p>I live Cebu, Philippines. It is known for many vacation spots and a vibrant culture. I enjoy visiting many places with my friends and family.</p>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>Web Dev Resources</h2>
+            <ul>
+                <li><a href="https://www.w3schools.com/" target="blank">W3Schools</a></li>
+                <li><a href="https://developer.mozilla.org/en-US/" target="blank">MDN Web Docs</a></li>
+                <li><a href="https://css-tricks.com/" target="blank">CSS-Tricks</a></li>
+                <li><a href="https://stackoverflow.com/" target="blank">Stack Overflow</a></li>
+            </ul>
+        </section>  
+    </main>
+
+    <footer>
+        <p>&copy;
+            <span id="currentyear"></span>
+            Jan Lander Fernandez | Cebu, Philippines
+        </p>
+        <p id="lastmodified"></p>
+    </footer>
+
+    <script src="scripts/getdates.js"></script>
 </body>
+
+
 </html>
