@@ -1,0 +1,27 @@
+@media (min-width: 768px) {
+    main {
+        position: relative;
+    }
+
+    .hero {
+        position: relative;
+    }
+
+    .data {
+        position: absolute;
+        top: 80px;
+        left: 20px;
+        width: 250px;
+        background:rgba(255,255,255,.85);
+    }
+
+    .weather {
+        position: absolute;
+        right: 20px;
+        bottom: 40px;
+        width: 220px;
+        background:rgba(255,255,255.85);
+    }
+
+    
+}
