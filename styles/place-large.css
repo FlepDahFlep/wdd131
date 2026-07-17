@@ -23,5 +23,15 @@
         background:rgba(255,255,255.85);
     }
 
-    
+    @media (min-width: 768px) {
+    .weather h2::after {
+        content: "⛅";
+    }
+
+    .weather img {
+        display: none;
+    }
+}
+
+
 }
