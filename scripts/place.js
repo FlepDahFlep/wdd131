@@ -5,8 +5,8 @@ year.textContent = new Date().getFullYear();
 
 modified.textContent = document.lastModified;
 
-const temperature = 28;
-const windSpeed = 6;
+const temperature = 10;
+const windSpeed = 5;
 
 function calculateWindChill(temp, speed) {
     return (
