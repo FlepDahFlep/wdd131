@@ -4,8 +4,8 @@ body {
 }
 
 :root {
-    --primary-color: #D0311E;
-    --secondary-color: #D90000;
+    --primary-color: #760031;
+    --secondary-color: #D51C39;
 }
 
 header {
@@ -13,7 +13,7 @@ header {
     color: white;
     text-align: center;
     padding: 1rem;
-    border-bottom: 10px solid #F7D87F;
+    border-bottom: 10px solid #C13383;
 }
 
 .hero img {
