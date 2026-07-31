@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "DM Sans", sans-serif;
+    background: #ffffff;
+    color: #222;
+    line-height: 1.5;
+}
+
+header {
+    background: #1B5E20;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+header h1 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+main {
+    max-width: 600px;
+    margin: 1rem auto;
+    padding: 0 1rem;
+}
+
+.wf1 {
+    background: #A5D6A7;
+    padding: 1rem;
+    border-radius: 4px;
+}
+
+fieldset {
+    border: none;
+}
+
+.wf1 > fieldset > label,
+.wf1 > fieldset > div {
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.optional {
+    font-weight: normal;
+    font-size: 0.9rem;
+    color: blue;
+}
+
+.wf1 input[type="text"],
+.wf1 input[type="date"],
+.wf1 select,
+.wf1 textarea {
+    width: 100%;
+    padding: .7rem;
+    margin-top: .35rem;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    background: white;
+}
+
+.wf1 textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.rating-group {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: .5rem;
+    margin-top: .5rem;
+}
+
+.rating-group label {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: normal;
+    margin: 0;
+}
+
+.rating-group span {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: .3rem;
+}
+
+.rating-group input[type="radio"] {
+    width: auto;
+    margin: 0;
+}
+
+.features {
+    margin-top: .5rem;
+}
+
+.features label {
+    display: flex;
+    align-items: center;
+    font-weight: normal;
+    margin: .35rem 0;
+}
+
+.features input {
+    margin-right: .5rem;
+}
+
+input[type="submit"],
+button {
+    width: 100%;
+    padding: .9rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    background: #f5f5f5;
+    border: 1px solid #999;
+    cursor: pointer;
+}
+
+.wf1 input[type="submit"] {
+    width: 100%;
+    margin-top: 1.5rem;
+    padding: .9rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background: #f4f4f4;
+    border: 1px solid #999;
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 1rem;
+    background: #266210;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer p {
+    margin: .25rem 0;
+}

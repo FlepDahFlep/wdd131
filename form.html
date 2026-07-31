@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Product Review Form for Week 5 of WDD 130">
+    <meta name="author" content="Jan Fernandez">
+    <script src="scripts/form.js" defer></script>
+    <title>Product Review Form</title>
+
+    <link rel="stylesheet" href="styles/form-small.css">
+    <link rel="stylesheet" href="styles/form-large.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+</head>
+    <body>
+	<header>
+    <h1>Resonance Product Review</h1>
+    </header>
+
+    <main>
+        <form method="get" action="review.html" class="wf1">
+            <fieldset>
+                    <label for="product">Product Name</label>
+                        <select id="product" name="product" required>
+                            <option value="" disabled selected>Choose a Product...</option>
+                        </select>
+                    </label>
+
+                <div>Overall Rating</div>
+                    <div class="rating-group">
+                        <label><span>☆</span><input type="radio" name="rating" value="1"></label>
+
+                        <label><span>☆☆</span><input type="radio" name="rating" value="2"></label>
+
+                        <label><span>☆☆☆</span><input type="radio" name="rating" value="3"></label>
+
+                        <label><span>☆☆☆☆</span><input type="radio" name="rating" value="4"></label>
+
+                        <label><span>☆☆☆☆☆</span><input type="radio" name="rating" value="5"></label>
+                    </div>
+
+  
+            <label>Date of Installtion<input type="date" name="comepleteDate"></label>
+            <div>Which features did you find useful in the product you received?
+                <span style="display:block;font-style:italic;font-weight:normal;">
+                (Check all that apply)
+                </span>
+            </div>
+            <div class="features">
+            <label><input type="checkbox" name="durability" value="yes">Durability</label>
+            <label><input type="checkbox" name="design" value="yes">Design</label>
+            <label><input type="checkbox" name="ease-of-use" value="yes">Ease Of Use</label>
+            <label><input type="checkbox" name="performance" value="yes">Performance</label>
+            </div>
+
+            <label for="review">
+                Written Review<span class="optional">(Optional)</span> 
+            </label>
+            <textarea id="review" name="review" rows="5"></textarea>
+
+            <label for="name">
+                Your Name<span class="optional">(Optional)</span> 
+            </label>
+            <input type="text" id="name" name="name">
+
+        <input type="submit" value="Post My Review">
+        </fieldset>
+    </form>
+    </main>
+
+    <footer>
+        <p>&copy;
+            <span id="currentyear"></span> 
+        Jan Lander Fernandez | Cebu, Philippines</p>
+        <p id="lastmodified"></p> 
+    </footer>
+</body>
+</html>
+
+
