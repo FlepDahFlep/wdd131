@@ -50,6 +50,26 @@ h2 {
     padding-bottom: .5rem;
 }
 
+.color-boxes {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+.blue {
+    background: #1F3A5F;
+    color: white;
+}
+
+.teal {
+    background: #4AA3A2;
+}
+
+.light-gray {
+    background: #F5F7FA;
+}
+
 .wireframes {
     display: flex;
     gap: 2rem;
