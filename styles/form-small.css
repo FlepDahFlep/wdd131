@@ -54,7 +54,7 @@ label {
 .optional {
     font-weight: normal;
     font-size: 0.9rem;
-    color: blue;
+    color: #000000;
 }
 
 .wf1 input[type="text"],
@@ -114,6 +114,12 @@ label {
 
 .features input {
     margin-right: .5rem;
+}
+
+.helper-text {
+    display: block;
+    font-style: italic;
+    font-weight: normal;
 }
 
 input[type="submit"],

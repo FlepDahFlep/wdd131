@@ -24,36 +24,43 @@
         <form method="get" action="review.html" class="wf1">
             <fieldset>
                     <label for="product">Product Name</label>
-                        <select id="product" name="product" required>
-                            <option value="" disabled selected>Choose a Product...</option>
-                        </select>
-                    </label>
+                    <select id="product" name="product" required>
+                        <option value="" selected disabled>Select a Product...</option>
+                    </select>
 
                 <div>Overall Rating</div>
                     <div class="rating-group">
-                        <label><span>☆</span><input type="radio" name="rating" value="1"></label>
+                        <label for="star1"><span>☆</span>
+                            <input type="radio" id="star1" name="rating" value="1" required>
+                        </label>
 
-                        <label><span>☆☆</span><input type="radio" name="rating" value="2"></label>
+                        <label for="star2"><span>☆☆</span>
+                            <input type="radio" id="star2" name="rating" value="2" required>
+                        </label>
 
-                        <label><span>☆☆☆</span><input type="radio" name="rating" value="3"></label>
+                        <label for="star3"><span>☆☆☆</span>
+                            <input type="radio" id="star3" name="rating" value="3" required>
+                        </label>
 
-                        <label><span>☆☆☆☆</span><input type="radio" name="rating" value="4"></label>
+                        <label for="star4"><span>☆☆☆☆</span>
+                            <input type="radio" id="star4" name="rating" value="4" required>
+                        </label>
 
-                        <label><span>☆☆☆☆☆</span><input type="radio" name="rating" value="5"></label>
+                        <label for="star5"><span>☆☆☆☆☆</span>
+                            <input type="radio" id="star5" name="rating" value="5" required>
+                        </label>
                     </div>
 
   
-            <label>Date of Installtion<input type="date" name="comepleteDate"></label>
+            <label>Date of Installation<input type="date" id="installation-date" name="completeDate"></label>
             <div>Which features did you find useful in the product you received?
-                <span style="display:block;font-style:italic;font-weight:normal;">
-                (Check all that apply)
-                </span>
+                <span class="helper-text">(Check all that apply)</span>
             </div>
             <div class="features">
-            <label><input type="checkbox" name="durability" value="yes">Durability</label>
-            <label><input type="checkbox" name="design" value="yes">Design</label>
-            <label><input type="checkbox" name="ease-of-use" value="yes">Ease Of Use</label>
-            <label><input type="checkbox" name="performance" value="yes">Performance</label>
+            <label for="durability"><input type="checkbox" id="durability" name="durability" value="yes">Durability</label>
+            <label for="design"><input type="checkbox" id="design" name="design" value="yes">Design</label>
+            <label for="ease-of-use"><input type="checkbox" id="ease-of-use" name="ease-of-use" value="yes">Ease Of Use</label>
+            <label for="performance"><input type="checkbox" id="performance" name="performance" value="yes">Performance</label>
             </div>
 
             <label for="review">
