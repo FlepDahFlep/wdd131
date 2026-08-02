@@ -23,12 +23,12 @@
     <main>
         <form method="get" action="review.html" class="wf1">
             <fieldset>
-                    <label for="product">Product Name</label>
+                    <label for="product">Product Name<span class="required">*</span></label>
                     <select id="product" name="product" required>
                         <option value="" selected disabled>Select a Product...</option>
                     </select>
 
-                <div>Overall Rating</div>
+                <div>Overall Rating<span class="required">*</span></div>
                     <div class="rating-group">
                         <label for="star1"><span>☆</span>
                             <input type="radio" id="star1" name="rating" value="1" required>
@@ -52,7 +52,7 @@
                     </div>
 
   
-                <label for="installation-date">Date of Installation</label>
+                <label for="installation-date">Date of Installation<span class="required">*</span></label>
                     <input
                         type="date"
                         id="installation-date"
